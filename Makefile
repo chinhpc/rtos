@@ -15,7 +15,7 @@ $(info 	)
 $(info [*****	MAKEFLAGS = ${MAKEFLAGS}	*****])
 $(info 	)
 
-TARGETS ?= f030f4p6
+TARGETS ?= f030f4p6 f411vet6
 
 OPENCM3_DIR := $(realpath libopencm3)
 FreeRTOS := $(realpath FreeRTOS)

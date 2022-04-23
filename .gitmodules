@@ -1,6 +1,9 @@
 [submodule "libopencm3"]
 	path = libopencm3
-	url = https://github.com/libopencm3/libopencm3
+	url = https://github.com/libopencm3/libopencm3.git
 [submodule "FreeRTOS"]
 	path = FreeRTOS
 	url = https://github.com/FreeRTOS/FreeRTOS.git
+[submodule "SWO-Parser"]
+       path = SWO-Parser
+       url = https://github.com/robertlong13/SWO-Parser.git

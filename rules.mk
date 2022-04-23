@@ -44,8 +44,8 @@ NULL	:= 2>/dev/null
 endif
 
 # Tool paths.
-# PREFIX	?= /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-
-PREFIX	?= arm-none-eabi-
+
+PREFIX ?= $(dir $(wildcard /opt/gcc-arm-none-eabi*/bin/arm-none-eabi-gcc))arm-none-eabi-
 CC	= $(PREFIX)gcc
 CXX	= $(PREFIX)g++
 LD	= $(PREFIX)gcc
